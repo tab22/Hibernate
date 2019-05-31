@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 23, 2019 11:34:24 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <subclass name="com.cdac.dao.EmpDaoImpl" extends="com.cdac.dao.EmpDao" discriminator-value="EmpDaoImpl" lazy="false">
+        <property name="id" type="java.lang.Long">
+            <column name="ID" />
+        </property>
+    </subclass>
+</hibernate-mapping>
